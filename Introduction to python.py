@@ -53,3 +53,46 @@ elif y < z:
     print('y is least')
 else:
     print('z is least')
+    
+#--------------------------------
+#--------------------------------
+
+##Exercise
+print('Write a program that examines three variables- x, y, and z - and prints the largest odd number among them. If none of them are odd, it should print a message to that effect.')
+x, y, z = 4, 7, 9
+print('x, y, z = 4, 7, 9')
+if x%2 == 1:
+    if y%2 == 1:
+        if x > y:
+            if z%2 == 1:
+                if x > z:
+                    print('x is the largest odd number')
+                else:
+                    print('z is the largest odd number')
+            else:
+                print('x is the largest odd number')
+        else:
+            print('y is the largest odd number')
+    elif z%2 == 1:
+        if x > z:
+            print('x is the largest odd number')
+        else:
+            print('z is the largest odd number')
+    else:
+        print('x is the largest odd number')
+elif y%2 == 1:
+    if z%2 == 1:
+        if y > z:
+            print('y is the largest odd number')
+        else:
+            print('z is the largest odd number')
+    else:
+        print('y is the largest odd number')
+elif z%2 == 1:
+    print('z is the largest odd number')
+else:
+    print('x, y, z are not odd numbers')
+    
+#--------------------------------
+#--------------------------------
+            
