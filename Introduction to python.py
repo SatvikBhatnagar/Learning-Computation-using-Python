@@ -16,3 +16,12 @@ print('x =', x)
 print('y = ', y)
 
 #--------------------------------
+
+
+#if-else conditionals
+print('\n#Conditionals')
+if x%2 == 0:
+    print('Even')
+else:
+    print('Odd')
+print('Done with conditional')
