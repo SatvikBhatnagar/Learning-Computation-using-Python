@@ -95,4 +95,10 @@ else:
     
 #--------------------------------
 #--------------------------------
-            
+
+#type checking
+print('\n#type checking')
+a = 5
+print('a = 5 ---> type =',type(a))
+b = 'c'
+print("b = 'c' ---> type =", type(b))
