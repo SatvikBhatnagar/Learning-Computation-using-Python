@@ -102,3 +102,16 @@ a = 5
 print('a = 5 ---> type =',type(a))
 b = 'c'
 print("b = 'c' ---> type =", type(b))
+
+#--------------------------------
+
+#length, indexing and slicing
+print('\n#pritning length of a string')
+print("STRING - 'Heyaa'")
+print('length of the strihng is:', len('Heyaa'))
+
+print("\n#printing the character at the index 3 in the string 'abc'")
+print("3rd charachter in the string 'abc' is:", 'abc'[2])
+
+print("\n#Slicing the string 'Hi!, how are you?' from the 5th index")
+print('--->' + 'Hi!, how are you?'[4:])
