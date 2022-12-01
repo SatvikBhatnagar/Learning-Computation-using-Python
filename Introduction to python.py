@@ -124,3 +124,19 @@ var = '8'
 print("type of variable '8':", type(var))
 var = int(var)
 print("converting the string '8' into int:", type(var))
+
+#--------------------------------
+
+#Iternation/looping
+
+#while loop
+#Square an integer, the hard way
+print('\n\n#ITERATIONS')
+print('\n#While loop')
+x = 3
+ans = 0
+itersLeft = x
+while (itersLeft != 0):
+    ans = ans + x
+    itersLeft = itersLeft - 1
+print(str(x) + '*' + str(x) + '=' + str(ans))
