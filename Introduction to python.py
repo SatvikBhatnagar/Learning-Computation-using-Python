@@ -115,3 +115,12 @@ print("3rd charachter in the string 'abc' is:", 'abc'[2])
 
 print("\n#Slicing the string 'Hi!, how are you?' from the 5th index")
 print('--->' + 'Hi!, how are you?'[4:])
+
+#--------------------------------
+
+#type conversion
+print('\n#type conversion / Type cast')
+var = '8'
+print("type of variable '8':", type(var))
+var = int(var)
+print("converting the string '8' into int:", type(var))
