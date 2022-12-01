@@ -140,3 +140,19 @@ while (itersLeft != 0):
     ans = ans + x
     itersLeft = itersLeft - 1
 print(str(x) + '*' + str(x) + '=' + str(ans))
+
+#--------------------------------
+#--------------------------------
+
+
+#Exercise
+print('\nExercise')
+print("\nReplace the comment in the following code with a while loop.")
+print("numXs = int(input('How many times hsould I print the letter X? '))", "\ntoPrint = ''", "\n#concatenate X to print numXs times", "\nprint(toPrint)")
+numXs = int(input('How many times should I print the letter X?: '))
+count = 0
+valueX = ''
+while (numXs != 0):
+    valueX = valueX + 'X'
+    numXs -= 1
+print(valueX)
