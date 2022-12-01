@@ -168,3 +168,4 @@ while True:
         break
     x = x + 1
 print(x, 'is divisible by 11 and 12')
+print("---> if a break statement is executed inside a nested loop (a loop inside another loop), the break will terminate the inner loop.")
