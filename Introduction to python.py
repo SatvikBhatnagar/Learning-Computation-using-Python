@@ -169,3 +169,24 @@ while True:
     x = x + 1
 print(x, 'is divisible by 11 and 12')
 print("---> if a break statement is executed inside a nested loop (a loop inside another loop), the break will terminate the inner loop.")
+
+#--------------------------------
+#--------------------------------
+
+#EXERCISE
+print("\nExercise")
+print("Write a program that asks the user to input 10 integers, and then prints the largest odd number that was enetered. If no odd number was enetered, it should print a message")
+
+odd = 0
+var = 10
+print("You have to enter 10 numbers now")
+while(var!=0):
+    number_ = int(input("Enter a number: "))
+    if number_%2 == 1:
+        if number_ > odd:
+            odd = number_
+    var -= 1
+if odd == 0:
+    print("No odd number was entered")
+else:
+    print("The largest odd number is:", odd)
