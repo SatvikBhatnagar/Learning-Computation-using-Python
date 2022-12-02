@@ -51,3 +51,11 @@ else:
     if x < 0:
         ans = -ans
     print('Cube root of', x, 'is', ans)
+    
+#---------------------------------------------
+total = 0
+for c in '123456789':
+    total = total + int(c)
+print(total)
+
+#---------------------------------------------
